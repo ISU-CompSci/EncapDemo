@@ -20,6 +20,13 @@ namespace EncapDemo {
     public partial class MainWindow : Window {
         public MainWindow() {
             InitializeComponent();
+
+            Person bob = new Person();
+            bob.FirstName = "Bob";
+            
+
+            MessageBox.Show(bob.FirstName);
+
         }
     }
 }
